@@ -95,15 +95,15 @@ public class Lista<T extends Comparable<T>> {
 
                 //if(temporal != a){
                 // temporal.getSiguiente();
-                while(temporal!=a){
+               // while(temporal!=a){
                 band = true;
                 System.out.println("el lop se ha encontrado " + band);
                 return band;
-                }
+                //}
 
                 //}
             }
        // }
-        return band;
+       // return band;
     }
 }
