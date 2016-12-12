@@ -83,27 +83,26 @@ public class Lista<T extends Comparable<T>> {
         boolean band = false;
 
       //  while (temporal != null) {
+        if (temporal.equals(a)) {
 
-            if (temporal == a) {
-
-                band = false;
-                temporal.getSiguiente();
-                System.out.println("el loop no se encontrado " + band);
-                return band;
-            } else {
+            band = false;
+            temporal.getSiguiente();
+            System.out.println("el loop no se encontrado " + band);
+            return band;
+        } else {
                 // band = true;
 
                 //if(temporal != a){
-                // temporal.getSiguiente();
-               // while(temporal!=a){
-                band = true;
-                System.out.println("el lop se ha encontrado " + band);
-                return band;
+            // temporal.getSiguiente();
+            // while(temporal!=a){
+            band = true;
+            System.out.println("el lop se ha encontrado " + band);
+            return band;
                 //}
 
-                //}
-            }
+            //  }
+        }
        // }
-       // return band;
+        //   return band;
     }
 }
